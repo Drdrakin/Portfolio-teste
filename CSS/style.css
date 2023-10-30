@@ -47,10 +47,12 @@
 }
 .imgsize2{
     width: 100px;
+    
 }
 
 .imgsize3{
-    width: 150px;
+    width: 50px;
+    margin-left: 25px;
 }
 
 .imgsize4{
@@ -65,18 +67,6 @@
     width: 300px;
 }
 
-.paragrafo {
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 40px;
-    font-size: larger;
-}
-.titulo1paragrafo {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Arimo', Arial, Helvetica, sans-serif;
-}
 
 /* Estilização do Cabeçario   */
 
@@ -132,4 +122,80 @@ footer figure {
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
+}
+
+/* Classes para o body */
+
+.texto
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.fototexto
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    padding-left: 25px;
+    
+}
+
+.foto
+{
+    width: 500px;
+    border-radius:15px;
+    border: 3px solid rgb(0, 140, 255) ;
+    box-shadow: 30px;
+}
+
+.paragrafo
+{
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    font-size: larger;
+}
+
+.titulo1paragrafo 
+{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Arimo', Arial, Helvetica, sans-serif;
+}
+
+/* Classes para a parte 'Oque estou aprendendo' */
+
+div h2
+{
+font-size: 50px;
+display: flex;
+justify-content: center;
+padding-top: 30px;
+}
+
+.tecnologias 
+{
+    font-size: 1.5rem;
+    padding: 25px;
+    
+}
+
+.aprendizado .tecnologias 
+{
+    display: flex;
+}
+
+.aprendizado .tecnologias figure
+{
+    padding: 25px;
+    margin: 25px auto;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px black;
+}
+
+.aprendizado .tecnologias img 
+{
+    width: 150px;
 }
